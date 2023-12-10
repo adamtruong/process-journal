@@ -30,7 +30,7 @@
 	
 	//About page
 	
-	$(".about-text").on('click', function () {
+	$(".about-text	").on('click', function () {
 		$("body").addClass("about-on");
 	});
 	$(".about-close").on('click', function () {
@@ -48,13 +48,13 @@
 	});
 
 	
-	//Travel portfolio page
+	//Equipments portfolio page
 	
-	$(".travel").on('click', function () {
-		$("body").addClass("travel-on");
+	$(".equipments").on('click', function () {
+		$("body").addClass("equipments-on");
 	});
-	$(".travel-close").on('click', function () {
-		$("body").removeClass("travel-on");
+	$(".equipments-close").on('click', function () {
+		$("body").removeClass("equipments-on");
 	});
 
 	
@@ -68,13 +68,13 @@
 	});
 
 	
-	//Nature portfolio page
+	//Extras portfolio page
 	
-	$(".nature").on('click', function () {
-		$("body").addClass("nature-on");
+	$(".extras").on('click', function () {
+		$("body").addClass("extras-on");
 	});
-	$(".nature-close").on('click', function () {
-		$("body").removeClass("nature-on");
+	$(".extras-close").on('click', function () {
+		$("body").removeClass("extras-on");
 	});
 
 	
